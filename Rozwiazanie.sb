@@ -1,0 +1,85 @@
+'Microsoft Small Basic https://smallbasic-publicwebsite.azurewebsites.net/
+Ania=0
+Basia=0
+Czarek=0
+Darek=0
+IleRazyCzarek=0
+s1:
+goto s7
+s2:
+Basia=Basia+5
+s3:
+Czarek=Czarek+8
+IleRazyCzarek=IleRazyCzarek+1
+s4:
+Basia=Basia+3
+s5:
+Ania=Ania+7
+s6:
+TextWindow.Write("Ania=")
+TextWindow.Write(Ania)
+TextWindow.WriteLine("")
+TextWindow.Write("Basia=")
+TextWindow.Write(Basia)
+TextWindow.WriteLine("")
+TextWindow.Write("Czarek=")
+TextWindow.Write(Czarek)
+TextWindow.WriteLine("")
+TextWindow.Write("Darek=")
+TextWindow.Write(Darek)
+TextWindow.WriteLine("")
+TextWindow.Write("IleRazyCzarek=")
+TextWindow.Write(IleRazyCzarek)
+TextWindow.WriteLine("")
+if Ania >= 1100000 then
+  Goto stp
+  EndIf
+if Basia >= 100000000000 then
+  Goto stp
+  Endif
+if Czarek >= 100000000000 then
+  Goto stp
+  Endif
+if Darek >= 100000000000 then
+  Goto stp
+  endif
+goto s2
+s7:
+Ania=Ania+1000000
+s8:
+Czarek=Czarek+7
+IleRazyCzarek=IleRazyCzarek+1
+s9:
+TextWindow.Write("Ania=")
+TextWindow.Write(Ania)
+TextWindow.WriteLine("")
+TextWindow.Write("Basia=")
+TextWindow.Write(Basia)
+TextWindow.WriteLine("")
+TextWindow.Write("Czarek=")
+TextWindow.Write(Czarek)
+TextWindow.WriteLine("")
+TextWindow.Write("Darek=")
+TextWindow.Write(Darek)
+TextWindow.WriteLine("")
+TextWindow.Write("IleRazyCzarek=")
+TextWindow.Write(IleRazyCzarek)
+TextWindow.WriteLine("")
+'TextWindow.PauseWithoutMessage()
+goto s4
+stp:
+TextWindow.Write("Ania=")
+TextWindow.Write(Ania)
+TextWindow.WriteLine("")
+TextWindow.Write("Basia=")
+TextWindow.Write(Basia)
+TextWindow.WriteLine("")
+TextWindow.Write("Czarek=")
+TextWindow.Write(Czarek)
+TextWindow.WriteLine("")
+TextWindow.Write("Darek=")
+TextWindow.Write(Darek)
+TextWindow.WriteLine("")
+TextWindow.Write("IleRazyCzarek=")
+TextWindow.Write(IleRazyCzarek)
+TextWindow.WriteLine("")
