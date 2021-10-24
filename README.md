@@ -15,3 +15,10 @@ Dzieci tak bardzo polubiły tę zabawę, że zdecydowały się raz skończyć ro
 7. Ania dokłada milion klocków
 8. Czarek dokłada 7 klocków
 9. Przejdź do 4
+
+
+##Pytanie
+1. Najwyższą wieżę ma Czarek?
+2. Ania wykonała polecenie dokładania klocków tyle samo razy co Czarek?
+3. Czarek wykonał polecenie dokładania klocków parzystą liczbę razy?
+4. Ania miałaby najwyższą wieżę, gdyby w poleceniu 7 dołożyła 15 miliardów klocków?
